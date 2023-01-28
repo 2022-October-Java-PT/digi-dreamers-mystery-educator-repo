@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import Axios from 'axios';
 
-const metMuseumPage = () => {
+const MetMuseumPage = () => {
 
   const [metMuseum, setMetMuseum] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -44,4 +44,4 @@ const metMuseumPage = () => {
   );
 }
 
-export default metMuseumPage;
+export default MetMuseumPage;
