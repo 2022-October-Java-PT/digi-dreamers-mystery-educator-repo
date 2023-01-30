@@ -1,13 +1,16 @@
 
 .header {
+  padding: 30px;
   display: flex;
   justify-content: space-between;
   margin: auto;
   width: 75%;
+  background-color: rgb(235, 112, 112);
 }
 
 .navList {
   display: flex;
+  
 
   & a {
     align-items: center;
@@ -20,11 +23,12 @@
     min-width: 75px;
     padding: 2px;
     text-decoration: none;
+    
   }
 
   & a:hover {
-    background-color: rgb(119, 29, 29);
-    color: white;
+    background-color: rgb(250, 234, 16);
+    color: rgb(207, 28, 28);
     transition: .5s;
   }
 }
