@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 
+import AboutPage from '../../pages/about';
 import ContactPage from '../../pages/contact';
 import HomePage from '../../pages/home';
 import MetMuseumPage from '../../pages/Museum';
@@ -17,6 +18,7 @@ const PageSwitch = () => (
         <Route exact path= {'/NasaGallery'} element={<NasaGalleryPage />} />
         <Route exact path={'/'} component={HomePage} />
         <Route exact path={'/contact'} component={ContactPage} />
+        <Route exact path={'/about'} element={<AboutPage />} />
         
     </Routes>
 );
