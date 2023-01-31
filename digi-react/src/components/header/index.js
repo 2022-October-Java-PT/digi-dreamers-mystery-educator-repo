@@ -11,9 +11,9 @@ const Header = () => (
       <NavLink to='/NasaGallery'>NasaGallery</NavLink>
       <NavLink to='/Museum'>MetMuseum</NavLink>
       <NavLink to='/Funfact'>FunFact</NavLink>
+      <NavLink to='/about'>About</NavLink>
       <NavLink to='/Games'>Games</NavLink>
       <NavLink to='/Contact'>Contact</NavLink>
-      
     </ul>
   </div>
 );
