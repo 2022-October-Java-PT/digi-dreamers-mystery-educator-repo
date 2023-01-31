@@ -13,7 +13,6 @@ const HomePage = () => {
             <iframe width="800" height="415" src="https://www.youtube.com/embed/Vb2ZXRh74WU?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     );
-   
 
 }
 

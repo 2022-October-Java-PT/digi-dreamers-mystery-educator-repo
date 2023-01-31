@@ -4,6 +4,7 @@ import AboutPage from '../../pages/about';
 import ContactPage from '../../pages/contact';
 import HomePage from '../../pages/home';
 import MetMuseumPage from '../../pages/Museum';
+import NasaGalleryPage from '../../pages/NasaGallery'
 import NasaPage from '../../pages/Nasa';
 import React from 'react';
 
@@ -14,6 +15,7 @@ const PageSwitch = () => (
         <Route exact path={'/Museum'} element={<MetMuseumPage />} />
         <Route exact path={'/'} element={<HomePage />} />
         <Route exact path={'/contact'} element={<ContactPage />} />
+        <Route exact path= {'/NasaGallery'} element={<NasaGalleryPage />} />
         <Route exact path={'/'} component={HomePage} />
         <Route exact path={'/contact'} component={ContactPage} />
         <Route exact path={'/about'} element={<AboutPage />} />

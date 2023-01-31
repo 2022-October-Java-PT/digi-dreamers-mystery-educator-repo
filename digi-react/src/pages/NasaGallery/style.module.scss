@@ -1,0 +1,26 @@
+
+
+.Nasa {
+    margin: 1rem;
+    font-family: 'Open sans', sans-serif;
+    background-color: beige;
+
+}
+
+.topContainer h1 {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.images {
+    color: black;
+    font-weight: bolder;
+    font-family: "Century";
+    font-size: larger;
+}
