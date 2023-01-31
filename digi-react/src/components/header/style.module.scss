@@ -1,3 +1,4 @@
+ @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:wght@100;300;400;500&family=Rubik+Moonrocks&display=swap');
 
 .header {
   padding: 30px;
@@ -5,7 +6,13 @@
   justify-content: space-between;
   margin: auto;
   width: 75%;
-  background-color: rgb(235, 112, 112);
+  background-color: #F4d35e;
+  border: 5px solid white;
+
+  & h1 {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 50px;
+  }
 }
 
 .navList {
@@ -14,22 +21,27 @@
 
   & a {
     align-items: center;
-    border: 1px solid black;
-    border-radius: 6px;
+    // border: 1px solid black;
+    // border-radius: 6px;
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin: 0 20px;
+    margin: 0 15px;
     min-width: 75px;
     padding: 2px;
     text-decoration: none;
-    
+    background-color: white;
+    color: black;
+    font-family: 'Concert One', cursive;
+    font-size: 1.5rem;
   }
 
   & a:hover {
-    background-color: rgb(250, 234, 16);
-    color: rgb(207, 28, 28);
+    background-color: #f95738;
+    color: white;
     transition: .5s;
   }
+
+  
 }
 
