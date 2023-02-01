@@ -1,13 +1,15 @@
 .footer {
-   align-items: left;
-   border: 1px solid black;
-   border-radius: 6px;
+   padding: 20px;
    display: flex;
    justify-content: center;
-   list-style-type: none;
-   margin: 0 20px;
-   min-width: 75px;
-   padding: 2px;
-}
+   margin: auto;
+   width: 90%;
+   background-color: #F4d35e;
+   border: 5px solid white;
 
+   & h1 {
+      font-family: 'Rubik Moonrocks', cursive;
+      font-size: 2.5rem;
+   }
+}
 
