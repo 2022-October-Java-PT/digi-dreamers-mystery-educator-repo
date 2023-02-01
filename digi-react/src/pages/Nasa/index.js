@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import Axios from 'axios';
+import style from './style.module.scss'
 
 const NasaPage = () => {
     
@@ -31,17 +32,15 @@ const NasaPage = () => {
     const api_key = 'zAt1VMRLNNKXOFHK7Sh9WFbaMfsnmP0KMA9cRENp';
 
     return (
-        <div className='style'>
+        <div className={style.APOD}>
             <h2>Astronomy Picture of the Day</h2>
             {loading ? <h3>Loading...</h3> : [nasa].map(nasa => (
                 <p key={api_key} href={`Nasa/${nasa.api_key}`}>
-                <h3>Date</h3>
-                <p>{nasa.date}</p>
+                <img src={nasa.url} alt="APOD" width='500' height="auto" />
+                <h3>Date: {nasa.date} </h3>
                 <h3>Explanation</h3>
                 <p>{nasa.explanation}</p>
-                <h3>Picture Of The Day</h3>
-                <img src={nasa.url} alt="APOD" width='400' height="auto" />
-                <p>Photographer: {nasa.copyright}</p>
+                <h4>Photographer:{nasa.copyright}</h4>
                 </p>
             ))}
         </div>
