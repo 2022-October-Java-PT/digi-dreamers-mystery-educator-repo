@@ -31,7 +31,7 @@ const AboutPage = () => {
                 <div className="grid-item grid-item4">
                     <h3>Wolfe Ashcraft</h3>
                     <img className="style-img" src={wolfeImg} alt="wolfe profile" width='300' height='auto' />
-                    <p className="style-bio">I live in Cleveland, Ohio. I am a Java Full Stack developer. iouvanuaievoia  lkjcois auhkdj nivvn niavnodh </p>
+                    <p className="style-bio">I live in Cleveland, Ohio. I am a Java Full Stack developer. I am an Aquarius </p>
                 </div>
             </div>
         </div>

@@ -1,17 +1,17 @@
- @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:wght@100;300;400;500&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:wght@100;300;400;500&family=Rubik+Moonrocks&display=swap');
 
 .header {
   padding: 30px;
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 0 auto;
   width: 90%;
   background-color: #F4d35e;
   border: 5px solid white;
 
   & h1 {
     font-family: 'Rubik Moonrocks', cursive;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
   }
 }
 
@@ -21,8 +21,8 @@
 
   & a {
     align-items: center;
-    // border: 1px solid black;
-    // border-radius: 6px;
+    border: 1px solid black;
+    
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -35,7 +35,7 @@
     color: black;
     font-family: 'Concert One', cursive;
     font-size: 1rem;
-    // overflow: auto;
+    
   }
 
   & a:hover {
