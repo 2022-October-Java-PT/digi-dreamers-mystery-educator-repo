@@ -10,12 +10,8 @@ const Header = () => (
       <NavLink to='/Nasa'>Nasa</NavLink>
       <NavLink to='/NasaGallery'>NasaGallery</NavLink>
       <NavLink to='/Museum'>MetMuseum</NavLink>
-<<<<<<< Updated upstream
-      <NavLink to='/Funfact'>FunFact</NavLink>
-=======
       <NavLink to='/KidBooks'>KidBooks</NavLink>
       <NavLink to='/about'>About</NavLink>
->>>>>>> Stashed changes
       <NavLink to='/Games'>Games</NavLink>
       <NavLink to='/Contact'>Contact</NavLink>
       
