@@ -39,7 +39,7 @@ class NasaGalleryPage extends Component {
         this.getAPIData();
     }
 
-    getAPIData(search = 'star') {
+    getAPIData(search = 'stars') {
         let array = [];
         const url = `https://images-api.nasa.gov/search?title=${search}&media_type=image`;
         Axios.get(url).then((response) => {
@@ -48,7 +48,7 @@ class NasaGalleryPage extends Component {
                 array.push({
                     title: element.data[0].title,
                     link: element.links[0].href,
-                    dataTaken: element.data[0].date_created
+                    description: element.data[0].description,
                 });
             });
             this.setState({
