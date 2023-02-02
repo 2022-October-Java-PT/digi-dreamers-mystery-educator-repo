@@ -36,7 +36,7 @@ const NasaPage = () => {
             <h2>Astronomy Picture of the Day</h2>
             {loading ? <h3>Loading...</h3> : [nasa].map(nasa => (
                 <p key={api_key} href={`Nasa/${nasa.api_key}`}>
-                <img src={nasa.url} alt="APOD" width='500' height="auto" />
+                <img src={nasa.url} alt="APOD" width='400' height="auto" />
                 <h3>Date: {nasa.date} </h3>
                 <h3>Explanation</h3>
                 <p>{nasa.explanation}</p>
