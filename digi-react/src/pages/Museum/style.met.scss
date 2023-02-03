@@ -3,19 +3,11 @@
 
 .style-met {
   background-color: #4c2a85;
-  width: 90%;
+  width: 94%;
   margin: 0 auto;
   border: 5px solid white;
 
   & h2 {
-    font-size: 45px;
-    color: white;
-    padding: 30px;
-    font-family: 'Concert One', cursive;
-    text-align: center;
-  }
-
-  & h3 {
     font-size: 30px;
     color: white;
     font-family: 'Concert One', cursive;
@@ -29,3 +21,34 @@
     text-align: center;
   }
 }
+
+.style-metMuseum {
+    align-items: center;
+    border: 1px solid black;
+    
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    min-width: 50px;
+    height: 50px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-family: 'Concert One', cursive;
+    font-size: 1rem;
+}
+
+.style-metMuseum:hover {
+    background-color: #f95738;
+    color: white;
+    transition: .5s;
+}
+
+.style-image {
+    border: 5x solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+

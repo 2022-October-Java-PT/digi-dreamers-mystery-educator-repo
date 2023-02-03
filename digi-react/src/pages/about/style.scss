@@ -3,7 +3,7 @@
 
 .style-about {
   background-color: #2c6E49;
-  width: 90%;
+  width: 94%;
   margin: 0 auto;
   border: 5px solid white;
 
@@ -33,10 +33,15 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
+  grid-column-gap: 0px;
+  grid-row-gap: 50px;
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+
+.grid-item {
+  width: 600px;
 }
 
 

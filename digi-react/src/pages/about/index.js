@@ -10,7 +10,7 @@ const AboutPage = () => {
     return (
         <div className='style-about'>
             <div className='style-about-heading'>
-                <h2>About Us</h2>
+                <h2>About The Digi-Dreamers Team</h2>
             </div>
             <div className="grid-container">
                 <div className="grid-item grid-item1">
