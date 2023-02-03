@@ -7,9 +7,13 @@ const HomePage = () => {
         
     </div>
     return (
+
+        
         <div>
         <center>
-            <h2>Learning Palace: A place to grow</h2>
+        
+            <h2>Mystery Educator: A place to grow</h2>
+            
         </center>
             
             <center>
@@ -18,12 +22,10 @@ const HomePage = () => {
             
         <center>
         <h2>
-            Learn about outer space from StoryBots
+            Learn about outer space from StoryBots: The StoryBots are curious little creatures who live beneath our screens, offering a world of learning and fun for kids. The Emmy Award-winning “Ask the StoryBots” tell us about the planets, moon, stars.
         </h2>
         </center>
-        <p>
-            The StoryBots are curious little creatures who live beneath our screens, offering a world of learning and fun for kids. The Emmy Award-winning “Ask the StoryBots” tell us about the planets, moon, stars.
-        </p>
+        
         
         <body>
         <center>
@@ -31,7 +33,7 @@ const HomePage = () => {
             Hear from Atronauts!
         </h2>
         <p>
-            Come and let NASA take you on an adventure! Learn from scientists and astronauts about some of the experiments they are work on while in space. And what that can mean for the future. We have all sorts of resources for students in grades k-8. No matter where you are, there's always something new to learn at NASA! We have astronomy picture of the day,  Nasa gallery and Space Station Activity Book in the games tab.
+            Come and let NASA take you on an adventure! Learn from scientists and astronauts about some of the experiments they are work on while in space. And what that can mean for the future. We have all sorts of resources for students in grades k-8. No matter where you are, there's always something new to learn at NASA! We have astronomy picture of the day,  Nasa gallery and KidsBooks in the tabs above.
         </p>
         </center>
         <center>
@@ -46,6 +48,8 @@ const HomePage = () => {
         <center>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/wgpOsxHkeTw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </center>
+        
+        
         </body>
     
             
