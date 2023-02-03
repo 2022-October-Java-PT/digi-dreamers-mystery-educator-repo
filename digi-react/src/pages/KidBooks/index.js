@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
 import  Axios  from 'axios';
+import style from './style.module.scss'
 
 const KidBooksPage = () => {
     
@@ -53,19 +54,14 @@ const KidBooksPage = () => {
     // }
 
     return (
-        <div>
+        <div className={style.container}>
             <h2>Here are some Books we recommend!</h2>
             {loading ? <h3>Loading...</h3> : kidBooks.map(kidBook => (
                 <div>
-                <h3>Authors</h3>
-                <p>{kidBook.firstName}</p>
-                {kidBooks.authors?.map(author => (
-                <p>{author.firstName} {author.lastName}</p>
-            ))}
                 <h3>Title</h3>
-                <p>{kidBook.title}</p>
+                <p className={style.title}>{kidBook.title}</p>
                 <h3>Description</h3>
-                <article>{kidBook.description}</article>
+                <article className={style.descriptions}>{kidBook.description}</article>
                 
                 </div>
             ))}
