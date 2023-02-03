@@ -29,15 +29,16 @@ const MetMuseumPage = () => {
         const timer = setTimeout(() => {
             if (!metMuseum || !metMuseum.primaryImageSmall) {
             window.location.reload();}
-            }, 3500);
+            }, 10000);
             return ()=>clearTimeout(timer);
     }, [metMuseum]);
     function refreshPage(){
         window.location.reload();
     }
     return (
+        
         loading ? <h2>Loading...</h2> :
-            <div className='style-met'>
+                <div className='style-met'>
                 <h2>The Metropolitan Museum of Art</h2>
                 <button className='style-metMuseum' onClick={refreshPage }>New Mystery Art</button>
                 <h2 className={style.artTitle}>Title: {metMuseum.title}</h2>
