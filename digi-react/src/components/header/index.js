@@ -12,9 +12,7 @@ const Header = () => (
       <NavLink to='/Museum'>MetMuseum</NavLink>
       <NavLink to='/KidBooks'>KidBooks</NavLink>
       <NavLink to='/about'>About</NavLink>
-    
       <NavLink to='/Contact'>Contact</NavLink>
-      
       <NavLink to='/contact'>Contact</NavLink>
 
     </ul>
